@@ -1,0 +1,234 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onActivate",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1093,
+					"height": 49,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"prevButton": {
+					"type": "button",
+					"top": 15,
+					"left": 15,
+					"width": 32,
+					"height": 32,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/prevButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"nextButton": {
+					"type": "button",
+					"top": 15,
+					"left": 50,
+					"width": 32,
+					"height": 32,
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/nextButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"todayButton": {
+					"type": "button",
+					"top": 17,
+					"left": 88,
+					"width": 70,
+					"height": 28,
+					"class": "default",
+					"focusable": false,
+					"text": "Today",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"method": "ObjectMethods/todayButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"webArea": {
+					"type": "webArea",
+					"top": 48,
+					"left": 0,
+					"width": 1093,
+					"height": 729,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"urlSource": "webAreaURL",
+					"webEngine": "embedded",
+					"methodsAccessibility": "all",
+					"contextMenu": "none",
+					"borderStyle": "none",
+					"method": "ObjectMethods/webArea.4dm",
+					"events": [
+						"onEndURLLoading"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 17,
+					"left": 277,
+					"width": 547,
+					"height": 28,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.title",
+					"class": "Font24",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"newButton": {
+					"type": "button",
+					"top": 17,
+					"left": 166,
+					"width": 70,
+					"height": 28,
+					"class": "default",
+					"focusable": false,
+					"text": "New",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"method": "ObjectMethods/newButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"viewRect": {
+					"type": "rectangle",
+					"top": 18,
+					"left": 833,
+					"width": 60,
+					"height": 26,
+					"sizingX": "move",
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeWidth": 2
+				},
+				"radioMonth": {
+					"type": "radio",
+					"top": 17,
+					"left": 832,
+					"width": 60,
+					"height": 28,
+					"sizingX": "move",
+					"class": "default",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Month",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group6",
+					"method": "ObjectMethods/radioMonth.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"radioWeek": {
+					"type": "radio",
+					"top": 17,
+					"left": 892,
+					"width": 60,
+					"height": 28,
+					"sizingX": "move",
+					"class": "default",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Week",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group6",
+					"method": "ObjectMethods/radioWeek.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"radioDay": {
+					"type": "radio",
+					"top": 17,
+					"left": 952,
+					"width": 60,
+					"height": 28,
+					"sizingX": "move",
+					"class": "default",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "Day",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group6",
+					"method": "ObjectMethods/radioDay.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"radioList": {
+					"type": "radio",
+					"top": 17,
+					"left": 1012,
+					"width": 60,
+					"height": 28,
+					"sizingX": "move",
+					"class": "default",
+					"stroke": "#000000",
+					"focusable": false,
+					"text": "List",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group6",
+					"method": "ObjectMethods/radioList.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group6": [
+				"radioMonth",
+				"radioWeek",
+				"radioDay",
+				"radioList"
+			]
+		}
+	}
+}

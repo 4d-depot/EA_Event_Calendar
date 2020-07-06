@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="5B0B105AB6F24B7383DFE30FD6571AEA" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Events" uuid="2808873D24D74F1F9752C01AD6217CAB" id="1">
+		<field name="ID" uuid="B0CD89E573274A828A88EB63D6316E5D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ownerID" uuid="E0CEA7C7601F4D2E9DFF5D60B36D8895" type="4" never_null="true" id="2"/>
+		<field name="subject" uuid="785F182AC34E493F8F432CED42869AB5" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="location" uuid="A4E0A39E00864C8CBA562621489FEECD" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="startDate" uuid="12D3DC3550CF4EB2A2C810E7EDA9A6FD" type="8" never_null="true" id="5"/>
+		<field name="startTime" uuid="EAEA01D9E2474B11980B02FFD93EE560" type="9" never_null="true" id="6"/>
+		<field name="endDate" uuid="76265CE08F464456B234B34B8082EDAA" type="8" never_null="true" id="7"/>
+		<field name="endTime" uuid="AEE63C6BBD444544A2D4A26C7B5F98D2" type="9" never_null="true" id="8"/>
+		<field name="allDay" uuid="0BB930E0F510481DBA5E9BBB10069C26" type="1" never_null="true" id="9"/>
+		<field name="details" uuid="DD0BBCF5D52A49D1BC094254644AE54B" type="10" never_null="true" id="10"/>
+		<field name="recurrence" uuid="5B2503EAA64B490FB72941A05B185F44" type="21" blob_switch_size="2147483647" never_null="true" id="11"/>
+		<primary_key field_name="ID" field_uuid="B0CD89E573274A828A88EB63D6316E5D"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="11">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="115.01171875" top="16.12109375" width="151.45703125" height="275.84375"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Share" uuid="8885C8B29AC64065A991801A69915736" id="2">
+		<field name="ID" uuid="DCA4A7082B44428EA40ADE1EDB173AA8" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ownerID" uuid="CBA5F7A8422A41E281E07F0A39B4AF55" type="4" never_null="true" id="2"/>
+		<field name="shareWith" uuid="F660FB656B7C41B496EDA04FA46D6F8F" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="DCA4A7082B44428EA40ADE1EDB173AA8"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="328.9375" top="16.7421875" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" uuid="1A3E1E563F444916ABDE8C31EC2A0591" type="7">
+		<field_ref uuid="CBA5F7A8422A41E281E07F0A39B4AF55" name="ownerID">
+			<table_ref uuid="8885C8B29AC64065A991801A69915736" name="Share"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="94F88A3080FF4AECA16BC5265ED7D562" type="7">
+		<field_ref uuid="DCA4A7082B44428EA40ADE1EDB173AA8" name="ID">
+			<table_ref uuid="8885C8B29AC64065A991801A69915736" name="Share"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A6AFCEDAB59F440FBC1A9C04D454AB48" type="7">
+		<field_ref uuid="E0CEA7C7601F4D2E9DFF5D60B36D8895" name="ownerID">
+			<table_ref uuid="2808873D24D74F1F9752C01AD6217CAB" name="Events"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="F95EFF1C3AC14A9B9163353E4CDC64BF" type="7">
+		<field_ref uuid="B0CD89E573274A828A88EB63D6316E5D" name="ID">
+			<table_ref uuid="2808873D24D74F1F9752C01AD6217CAB" name="Events"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="EventCalendar" structure_file_name="EventCalendar" data_file_path=":EventCalendar.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

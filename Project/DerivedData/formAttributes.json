@@ -1,0 +1,24 @@
+﻿{
+	"forms": {
+		"calendarPermission": {
+			"timeStamp": "2020-07-06T16:05:30.650Z",
+			"destination": "detailScreen"
+		},
+		"splashScreen": {
+			"timeStamp": "2020-07-06T16:05:30.656Z",
+			"destination": "detailScreen"
+		},
+		"eventInput": {
+			"timeStamp": "2020-07-06T16:05:30.649Z",
+			"destination": "detailScreen"
+		},
+		"main": {
+			"timeStamp": "2020-07-06T16:05:30.652Z",
+			"destination": "detailScreen"
+		},
+		"eventCalendar": {
+			"timeStamp": "2020-07-06T16:05:30.640Z",
+			"destination": "detailScreen"
+		}
+	}
+}

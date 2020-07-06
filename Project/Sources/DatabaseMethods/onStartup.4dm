@@ -1,0 +1,2 @@
+applicationStartup 
+_openSplashScreen 

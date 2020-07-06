@@ -1,0 +1,91 @@
+﻿{
+	"Forms": {
+		"forms": [
+			"calendarPermission",
+			"eventCalendar",
+			"eventInput",
+			"main"
+		]
+	},
+	"fullCalendar": {
+		"groups": [
+			"Forms",
+			"Methods",
+			"Table",
+			"Unused"
+		]
+	},
+	"Methods": {
+		"groups": [
+			"User"
+		],
+		"methods": [
+			"applicationStartup",
+			"bgColorPict",
+			"buildCalendarViewObject",
+			"changeDate",
+			"changeView",
+			"Compiler_Arrays",
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"createCalendarData",
+			"editEvent",
+			"findID",
+			"formatDate",
+			"getColors",
+			"getCurrentUserName",
+			"getDateRange",
+			"getFirstDateInWeekOf",
+			"getLastDateInWeekOf",
+			"getPermission",
+			"getReadableUserList",
+			"getUserList",
+			"gmtToTime",
+			"moveViewRect",
+			"newEvent",
+			"nextHour",
+			"openCalendarMainWindow",
+			"openCalendarPermission",
+			"openCalendarWindow",
+			"setNavButtonState",
+			"setupUserListForCalendar",
+			"updateCalendar",
+			"updateDayOfWeek",
+			"updateTitle",
+			"userColorFromId",
+			"userIdThatSharedCalendar",
+			"userNameFromId",
+			"viewAttribute",
+			"waCallBackEventEdit",
+			"waCallBackEventUpdate"
+		]
+	},
+	"Splashscreen'": {
+		"methods": [
+			"_openSplashScreen"
+		],
+		"forms": [
+			"splashScreen"
+		]
+	},
+	"Table": {
+		"tables": [
+			"Events",
+			"Share"
+		]
+	},
+	"Unused": {
+		"forms": [
+			"[Events]Input",
+			"[Events]Output",
+			"[Share]Input",
+			"[Share]Output"
+		]
+	},
+	"User": {
+		"methods": [
+			"getCurrentUserId"
+		]
+	},
+	"trash": {}
+}

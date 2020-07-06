@@ -1,0 +1,23 @@
+﻿{
+	"Permission": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Read only",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Read and Write",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

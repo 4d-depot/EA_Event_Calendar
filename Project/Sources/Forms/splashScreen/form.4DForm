@@ -1,0 +1,212 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "4D Starter Application",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 178,
+					"width": 493,
+					"height": 362,
+					"fill": "#ECECEC",
+					"stroke": "transparent"
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 313,
+					"left": 431,
+					"width": 220,
+					"height": 29,
+					"fill": "#FA7C3F",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 313,
+					"left": 201,
+					"width": 220,
+					"height": 29,
+					"fill": "#FA7C3F",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 178,
+					"height": 363,
+					"stroke": "transparent"
+				},
+				"Text": {
+					"type": "text",
+					"top": 30,
+					"left": 200,
+					"width": 367,
+					"height": 21,
+					"stroke": "#696969",
+					"class": "Font18",
+					"text": "Welcome to 4D Event Calendar Application"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 73,
+					"left": 200,
+					"width": 455,
+					"height": 168,
+					"stroke": "#696969",
+					"class": "font14",
+					"text": "This application demonstrates an integration power to create a professional event manager application. The implementation combines the native 4D widgets and an opensource calendar framework to offer a beautiful and intuitive user interface for the user.\r\rFor more information about FullCalendar 4.3.1, please visit\rhttps://fullcalendar.io"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 289,
+					"left": 201,
+					"width": 368,
+					"height": 19,
+					"stroke": "#696969",
+					"class": "font14",
+					"text": "Start the application with"
+				},
+				"Button": {
+					"type": "button",
+					"top": 313,
+					"left": 201,
+					"width": 220,
+					"height": 30,
+					"action": "accept",
+					"class": "font14",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": "The current data file",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 313,
+					"left": 431,
+					"width": 220,
+					"height": 30,
+					"class": "font14",
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"text": "A new data file",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 20,
+					"width": 138,
+					"height": 149,
+					"fill": "transparent",
+					"stroke": "#ECECEC",
+					"strokeWidth": 2,
+					"borderRadius": 10
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 20,
+					"width": 138,
+					"height": 40,
+					"fill": "#FF6347",
+					"stroke": "transparent",
+					"borderRadius": 10
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 40,
+					"left": 20,
+					"width": 138,
+					"height": 20,
+					"fill": "#FF6347",
+					"stroke": "transparent"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 27,
+					"left": 38,
+					"width": 105,
+					"height": 29,
+					"dataSource": "Form:C1466.month",
+					"stroke": "#FFFFFF",
+					"class": "Font24",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 74,
+					"left": 35,
+					"width": 103,
+					"height": 82,
+					"dataSource": "Form:C1466.day",
+					"stroke": "#435152",
+					"class": "Font72",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group3": [
+				"Rectangle",
+				"Rectangle1",
+				"Rectangle2",
+				"Variable",
+				"Variable1"
+			]
+		}
+	}
+}

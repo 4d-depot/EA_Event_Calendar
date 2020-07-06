@@ -1,0 +1,10 @@
+*** Full Backup
+Creating archive : Macintosh HD:Users:akomoncharoensiri:Documents:GitHub:EA_Event_Calendar:EventCalendar[0001].4BK
+Attachment(s): 
+	Macintosh HD:Users:akomoncharoensiri:Documents:GitHub:EA_Event_Calendar:fullCalendarIntegration.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:akomoncharoensiri:Documents:GitHub:EA_Event_Calendar:fullCalendarIntegration.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:akomoncharoensiri:Documents:GitHub:EA_Event_Calendar:fullCalendarIntegration.4DIndx [NOT FOUND]
+Scheduled 1-1-01 4:07 PM
+Starting 7-6-20 9:11 AM
+Ending 7-6-20 9:11 AM
+

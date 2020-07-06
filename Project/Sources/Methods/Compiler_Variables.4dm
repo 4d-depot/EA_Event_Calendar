@@ -1,0 +1,10 @@
+//%attributes = {"invisible":true}
+C_BOOLEAN:C305(deleteEntity_b)
+C_TIME:C306(endTime)
+C_TEXT:C284(eventDefaultDate_t)
+C_COLLECTION:C1488(events_c)
+C_LONGINT:C283(recur_at)
+C_TIME:C306(startTime)
+C_DATE:C307(vDate)
+C_DATE:C307(vDate1)
+C_DATE:C307(vDate2)

@@ -1,0 +1,235 @@
+﻿{
+	"methods": {
+		"applicationStartup": {
+			"timeStamp": "2020-07-06T16:05:28.594Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"waCallBackEventUpdate": {
+			"timeStamp": "2020-07-06T16:05:28.608Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"setupUserListForCalendar": {
+			"timeStamp": "2020-07-06T16:05:28.608Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"findID": {
+			"timeStamp": "2020-07-06T16:05:28.606Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getCurrentUserName": {
+			"timeStamp": "2020-07-06T16:05:28.612Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"nextHour": {
+			"timeStamp": "2020-07-06T16:05:28.595Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"changeDate": {
+			"timeStamp": "2020-07-06T16:05:28.598Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getColors": {
+			"timeStamp": "2020-07-06T16:05:28.604Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"userNameFromId": {
+			"timeStamp": "2020-07-06T16:05:28.613Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"changeView": {
+			"timeStamp": "2020-07-06T16:05:28.597Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"editEvent": {
+			"timeStamp": "2020-07-06T16:05:28.595Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"openCalendarWindow": {
+			"timeStamp": "2020-07-06T16:05:28.596Z"
+		},
+		"buildCalendarViewObject": {
+			"timeStamp": "2020-07-06T16:05:28.609Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"waCallBackEventEdit": {
+			"timeStamp": "2020-07-06T16:05:28.602Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"updateTitle": {
+			"timeStamp": "2020-07-06T16:05:28.599Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"createCalendarData": {
+			"timeStamp": "2020-07-06T16:05:28.601Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getUserList": {
+			"timeStamp": "2020-07-06T16:05:28.612Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"openCalendarPermission": {
+			"timeStamp": "2020-07-06T16:05:28.604Z"
+		},
+		"newEvent": {
+			"timeStamp": "2020-07-06T16:05:28.593Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"formatDate": {
+			"timeStamp": "2020-07-06T16:05:28.597Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Arrays": {
+			"timeStamp": "2020-07-06T16:05:28.615Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"userColorFromId": {
+			"timeStamp": "2020-07-06T16:05:28.617Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"_openSplashScreen": {
+			"timeStamp": "2020-07-06T16:05:28.619Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"setNavButtonState": {
+			"timeStamp": "2020-07-06T16:05:28.594Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getFirstDateInWeekOf": {
+			"timeStamp": "2020-07-06T16:05:28.598Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"updateDayOfWeek": {
+			"timeStamp": "2020-07-06T16:05:28.611Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"updateCalendar": {
+			"timeStamp": "2020-07-06T16:05:28.601Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getLastDateInWeekOf": {
+			"timeStamp": "2020-07-06T16:05:28.599Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Variables": {
+			"timeStamp": "2020-07-06T16:05:28.615Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"gmtToTime": {
+			"timeStamp": "2020-07-06T16:05:28.611Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"bgColorPict": {
+			"timeStamp": "2020-07-06T16:05:28.618Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"userIdThatSharedCalendar": {
+			"timeStamp": "2020-07-06T16:05:28.606Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getDateRange": {
+			"timeStamp": "2020-07-06T16:05:28.600Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getReadableUserList": {
+			"timeStamp": "2020-07-06T16:05:28.613Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2020-07-06T16:05:28.616Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"moveViewRect": {
+			"timeStamp": "2020-07-06T16:05:28.618Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"openCalendarMainWindow": {
+			"timeStamp": "2020-07-06T16:05:28.610Z"
+		},
+		"getPermission": {
+			"timeStamp": "2020-07-06T16:05:28.607Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"viewAttribute": {
+			"timeStamp": "2020-07-06T16:05:28.602Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getCurrentUserId": {
+			"timeStamp": "2020-07-06T16:05:28.603Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}

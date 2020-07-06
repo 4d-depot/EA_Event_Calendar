@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<compiler>
+			<options compilation_path="3"/>
+		</compiler>
+		<general startup_environnement="1"/>
+		<interface>
+			<user splash_screen="false"/>
+		</interface>
+	</com.4d>
+</preferences>

@@ -1,0 +1,157 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onActivate"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"calContainer": {
+					"type": "subform",
+					"top": 0,
+					"left": 231,
+					"width": 1092,
+					"height": 776,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.calContainer",
+					"detailForm": "eventCalendar",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "solid"
+				},
+				"userList": {
+					"type": "listbox",
+					"top": 62,
+					"left": 1,
+					"width": 230,
+					"height": 714,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"rowHeight": "30px",
+					"showHeaders": false,
+					"dataSource": "Form:C1466.readableUser",
+					"currentItemPositionSource": "Form:C1466.readableUserPos",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"fill": "transparent",
+					"verticalAlign": "middle",
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "This:C1470.show",
+							"dataSourceTypeHint": "boolean",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"controlType": "checkbox",
+							"textAlign": "center",
+							"verticalAlign": "middle",
+							"events": [
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Column1.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer1",
+								"timeFormat": "hh_mm_ss",
+								"verticalAlign": "middle"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "This:C1470.name",
+							"width": 150,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"verticalAlign": "middle",
+							"fontFamily": "Arial",
+							"fontSize": 14,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer2",
+								"timeFormat": "hh_mm_ss",
+								"verticalAlign": "middle"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "This:C1470.colorPic",
+							"dataSourceTypeHint": "picture",
+							"width": 27,
+							"minWidth": 10,
+							"maxWidth": 27,
+							"enterable": false,
+							"pictureFormat": "truncatedCenter",
+							"verticalAlign": "middle",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer3",
+								"timeFormat": "hh_mm_ss",
+								"verticalAlign": "middle"
+							}
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 23,
+					"left": 13,
+					"width": 198,
+					"height": 21,
+					"class": "Font18",
+					"text": "Calendars"
+				}
+			}
+		}
+	]
+}
